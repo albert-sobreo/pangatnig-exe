@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>PANGATNIG</title>
+  <script src="../js/modernizr.min.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="../css/style5.css">
+  <style type="text/css">
+    .disablediv{
+      pointer-events: none;
+    }
+  </style>
+
+  
+</head>
+
+<body>
+<header>
+  <h5><b>Enrichment 2:</b><br> Pindutin ang pangatnig sa hanay ng mga kahon </h5>
+</header>
+
+<div class="wrap">
+  <div id="disable">
+  <div class="row">
+  <section data-quiz-item>
+    <div class="question">Laganap ngayon ang droga, kaya maraming tao ang nagbabago.</div>
+    <div class="choices" data-choices='["Laganap","kaya","ang nagbabago"]'>
+    </div>
+  </section>
+  <section data-quiz-item>
+    <div class="question">Samakatuwid ang mga bata ay maaari na ngayong mag-aral ng libre sa lahat ng pampublikong paaralan.</div>
+    <div class="choices" data-choices='["lahat","maaari","Samakatuwid"]'>
+    </div>
+  </section>
+  </div>
+  <div class="row">
+  <section data-quiz-item>
+    <div class="question">Sa madaling salita, ang lahat ay may proteksyon na sa bakuna ng DOH.</div>
+    <div class="choices" data-choices='["Sa madaling salita","ang lahat","sa bakuna"]'>
+    </div>
+  </section>
+   <section data-quiz-item>
+     <div class="question">Anupa't ang mga tao ay masaya sa bagong pamunuan ng paaralan.</div>
+    <div class="choices" data-choices='["masaya","ang mga tao","Anupa&apos;t"]'>
+    </div>
+  </section>
+  </div>
+   <div class="row">
+  <section data-quiz-item>
+    <div class="question">Kung gayon, kayo ay maaari nang tumayo at lumakad ng matuwid.</div>
+    <div class="choices" data-choices='["maari","Kung gayon","kayo"]'>
+    </div>
+  </section>
+  <section data-quiz-item>
+    <div class="question">Maraming isda sa dagat kaya ang mga mangingisda ay sagana sa huli.</div>
+    <div class="choices" data-choices='["kaya","sa huli","Maraming"]'>
+    </div>
+  </section>
+  </div>
+  <div class="row">
+  <section data-quiz-item>
+    <div class="question">Pasukan na anupa't ang mga nanay ay taranta na sa pagbili ng mga gamit pang eskwela.</div>
+    <div class="choices" data-choices='["anupa&apos;t","Pasukan na","ng mga gamit"]'>
+    </div>
+  </section>
+  <section data-quiz-item>
+    <div class="question">Kasama siya sa pag-alis, kaya naghanda na ang nanay ng baon.</div>
+    <div class="choices" data-choices='["naghanda","kaya","ng baon"]'>
+    </div>
+  </section>
+  </div>
+  <div class="row">
+  <section data-quiz-item>
+    <div class="question">Madilim ang kalangitan samakatuwid bubuhos ang malakas na ulan.</div>
+    <div class="choices" data-choices='["Madilim","samakatuwid","na ulan"]'>
+    </div>
+  </section>
+  <section data-quiz-item>
+    <div class="question">Siya ay mapagmahal sa bayan, anupa't ginagalang siya sa kanilang bayan.</div>
+    <div class="choices" data-choices='["Siya","kanilang bayan","anupa&apos;t"]'>
+    </div>
+  </section>
+  </div>
+  <br>
+<div id="emc-score"></div>
+</div>
+  <div class="submit"><center>
+  <button> <a href="enrichmentcard.html">Bumalik</a></button>
+  <button id="emc-submit" onclick="disablebutton()">Ipasa ang sagot</button></center>
+  </div>
+</div>
+
+<footer>
+</footer>
+
+<script> if (typeof module === 'object'){window.module = module; module = undefined;} </script>
+  <script src='../js/jquery.min.js'></script>
+  <script  src="../js/index6.js"></script>
+ <script> if (window.module) module = window.module; </script>
+ <script>
+   function disablebutton(){
+     $("#disable").addClass("disablediv");
+     document.getElementById('emc-submit').disabled = true;
+   }
+ </script>
+
+
+
+</body>
+
+</html>

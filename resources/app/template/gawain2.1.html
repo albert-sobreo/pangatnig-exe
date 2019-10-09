@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>PANGATNIG</title>
+  
+  
+  <link rel='stylesheet' href='../jquery/jquery-ui.css'>
+  <link rel="stylesheet" href="../css/style4.css">
+
+  
+</head>
+
+<body>
+
+	<div class="quiz-wrapper">
+		<p class="question-description">Assessment 1: Ilagay ang pangatnig sa tamang kahon upang mabuo ang diwa ng pangungusap.</p>
+		<ul class="options">
+			<li class="title">Pagpipilian</li>
+			<li class="option" data-target="Samantala" id="1">samantala</li>
+			<li class="option" data-target="subalit" id="2">subalit</li>
+			<li class="option" data-target="saka" id="3">saka</li>
+			<li class="option" data-target="kaya" id="4">kaya</li>
+			<li class="option" data-target="datapwat" id="5">datapwat</li>
+			<li class="option" data-target="Ngunit" id="6">ngunit</li>
+			<li class="option" data-target="sawakas" id="7">sa wakas</li>
+			<li class="option" data-target="salahatngito" id="8">sa lahat ng ito</li>
+			<li class="option" data-target="kunggayon" id="9">kung gayon</li>
+			<li class="option" data-target="dahilsa" id="10">dahil sa</li>
+		</ul>
+	<div class="answers">
+		<ol>
+			<li><span class="target" data-accept="salahatngito">&nbsp;</span>, isa lang ang napili mo.</li>
+			<br>
+			<li>Maitatayo ang dambana <span class="target" data-accept="subalit">&nbsp;</span> kulang ang perang panustos dito. </li>
+			<br>
+			<li><span class="target" data-accept="datapwat">&nbsp;</span> marunong siya, masama naman ang kanyang ugali. </li>
+			<br>
+			<li>Ang mga bata ay naglalaro <span class="target" data-accept="Samantala">&nbsp;</span>ang ama ay naglalasing.</li>
+			<br>
+			<li><span class="target" data-accept="dahilsa">&nbsp;</span> sa bagyo, ang mga bahay ay inabot ng baha. </li>
+			<br>
+			<li>Maraming na akong pera<span class="target" data-accept="Ngunit">&nbsp;</span> ano ang silbi nito kung ako'y nag-iisa. </li>
+			<br>
+			<li><span class="target" data-accept="sawakas">&nbsp;</span> ang aralin ay natapos din.</li>
+			<br>
+			<li>Ang tao ay masipag <span class="target" data-accept="kaya">&nbsp;</span> di nalalayo ang tagumpay.</li>
+			<br>
+			<li>Marami na siyang nalutas na problema sa buhay <span class="target" data-accept="kunggayon">&nbsp;</span> maari na siyang maging maligaya.</li>
+			<br>
+			<li><span class="target" data-accept="saka">&nbsp;</span> na ang luho, mag-aral ka muna.</li>
+		</ol>
+	</div>
+	 <center><button class="next"> <a class="next" href="assessmentcard.html" type="button">Bumalik</a> </button>
+	 <button type="submit" value="submit">Ipasa ang sagot</button></center>
+	 <div class="lightbox-bg"></div>
+	 <div class="status confirm">
+	   <p id="magaling"> 10/10 <br>Mahusay!</p>
+	   <button class="next">
+  			<a class="next" href="gawain2.2.html" type="button">Susunod na pahina</a>
+  		</button>
+	 </div>
+	 <div class="status deny">
+	   <p>Pakitapos ang pagsusulit</p>
+	 </div>
+	</div>
+	<script> if (typeof module === 'object'){window.module = module; module = undefined;} </script>
+  <script src='../jquery/jquery.min.js'></script>
+<script src='../jquery/jquery-ui.min.js'></script>
+<script src='../jquery/jquery.ui.touch-punch.min.js'></script>
+    <script  src="../js/index4.js"></script>
+ <script> if (window.module) module = window.module; </script>
+
+</body>
+
+</html>
