@@ -1,1 +1,0 @@
-# pangatnig"pangatnig-exe" 
